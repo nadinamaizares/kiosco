@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\\\Users\\\\lanoz\\\\OneDrive\\\\Desktop\\\\lubricentro-app\")",
+      "PowerShell(cd \"c:\\\\Users\\\\lanoz\\\\OneDrive\\\\Desktop\\\\lubricentro-app\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"npm run dev\" -WindowStyle Normal)",
+      "PowerShell(Rename-Item \"c:\\\\Users\\\\lanoz\\\\OneDrive\\\\Desktop\\\\lubricentro-app\\\\src\\\\shared\\\\useToast.js\" \"useToast.jsx\")",
+      "PowerShell(cd \"c:\\\\Users\\\\lanoz\\\\OneDrive\\\\Desktop\\\\lubricentro-app\"; Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"npm run dev\")"
+    ]
+  }
+}
