@@ -187,18 +187,19 @@ p  { color: var(--text2); font-size: 14px; }
   flex-direction: column;
   align-items: center;
   gap: 3px;
-  padding: 6px 16px;
+  padding: 6px 8px;
   color: var(--text3);
   cursor: pointer;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 10px;
   border-radius: var(--radius-sm);
   transition: color .15s;
   background: none;
   border: none;
+  flex: 1;
 }
 .nav-item.active { color: var(--accent); }
-.nav-item svg   { width: 22px; height: 22px; stroke-width: 1.8; }
+.nav-item svg   { width: 20px; height: 20px; stroke-width: 1.8; }
 
 /* ── Header de página ───────────────────────────────── */
 .page-header {

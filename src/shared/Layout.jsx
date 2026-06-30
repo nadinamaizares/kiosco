@@ -7,6 +7,7 @@ const NAV = [
   { to: '/entrada',    label: 'Entrada',   icon: PlusIcon },
   { to: '/salida',     label: 'Venta',     icon: CartIcon },
   { to: '/historial',  label: 'Historial', icon: ListIcon },
+  { to: '/clientes',   label: 'Clientes',  icon: UsersIcon },
 ]
 
 export default function Layout({ children }) {
@@ -87,4 +88,7 @@ function ListIcon() {
 }
 function ShopIcon() {
   return <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" width="18" height="18"><path d="M3 9l1-5h16l1 5"/><path d="M3 9a2 2 0 004 0 2 2 0 004 0 2 2 0 004 0 2 2 0 004 0"/><path d="M5 9v11a1 1 0 001 1h12a1 1 0 001-1V9"/><line x1="9" y1="14" x2="15" y2="14"/></svg>
+}
+function UsersIcon() {
+  return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
 }
